@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ============================================= */
+/* Navbar Section */
+.nav-bar {
+    background: rgba(255, 255, 255, 0.90);
+}
+
+.nav-letter {
+    color: #22253B;
+    font-weight: 400;
+    transition: all .2s linear;
+}
+
+.nav-letter:hover {
+    color: #F15525;
+}
+
+.csButton {
+    color: #FFF;
+    font-weight: 400;
+    background: #38BFF2;
+    padding: 4px 15px;
+    border-radius: 50px;
+    border: 2px solid #38BFF2;
+    transition: all .3s linear;
+}
+
+.csButton:hover {
+    background: transparent;
+    color: #38BFF2;
+}
+
+.csButton:hover .btnIcon {
+    fill: #38BFF2;
+    transform: rotate(-360deg);
+}
+
+.btnIcon {
+    width: 20px;
+    fill: white;
+    height: 20px;
+    transition: all .5s linear;
+}
+
+/* ============================================== */
+
+/* Header Section */
+
+.header {
+    background: #f9f8fd;
+}
+
+.headerText {
+    color: #22253B;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.textSpan {
+    color: #F15525;
+}
+
+.hdText {
+    color: #22253B;
+    font-size: 18px;
+    font-weight: 400;
+    border-top: 1px solid #ddd;
+}
+
+.csButton2 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+    background: #F15525;
+    padding: 12.5px 30px;
+    border: 2px solid #F15525;
+    border-radius: 50px;
+    transition: all .3s linear;
+}
+
+.csButton2:hover {
+    color: #F15525;
+    background: transparent;
+}
+
+.headerIcon {
+    fill: #FFF;
+    transition: all .5s linear;
+    transform: rotate(45deg);
+}
+
+.csButton2:hover .headerIcon {
+    fill: #F15525;
+    transform: rotate(405deg);
+}
+
+/* =========================================== */
+/* Content Section */
+.ctText {
+    color: #22253B;
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.ctBody {
+    background: #EAF2F5;
+}
+
+.divider {
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px;
+    transition: all .3s linear;
+}
+
+.divider:hover {
+    transform: scale(1.1);
+}
+
+.blue {
+    background: #5096FF;
+}
+
+.orange {
+    background: #FFB359;
+}
+
+.salmon {
+    background: #FF6F50;
+}
+
+.lime {
+    background: #4BD071;
+}
+
+.cyan {
+    background: #50C0FF;
+}
+
+.teal {
+    background: #4B77B9;
+}
+
+.skyblue {
+    background: #AF93FF;
+}
+
+.contentText {
+    color: #22253B;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* =============================================== */
+
+/* Cards Section */
+
+.cards {
+    color: #22253B;
+}
+
+.cardTitle {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.csCard {
+    border-radius: 30px;
+    background: #EAF2F5;
+    padding: 25px;
+    min-height: 251px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardName {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cardParag {
+    color: #22253B;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* ============================================== */
+
+/* Prices Section */
+
+.prices {
+    background: #f9f8fd;
+    color: #22253B;
+}
+
+.prTitle {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.image {
+    width: 250px;
+}
+
+.image2 {
+    width: 130px;
+}
+
+.prText {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ====================================================== */
+
+/* Help Section */
+
+.helpCont {
+    background: #EAF2F5;
+    padding: 20px;
+    border-radius: 40px;
+    min-height: 300px;
+}
+
+.helpText1 {
+    color: #22253B;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.h-100p {
+    height: 100%;
+}
+
+/* ======================================= */
+
+/* Footer Section */
+.footerCont {
+    border-radius: 30px;
+    background: #EAF2F5;
+    padding: 40px 25px;
+}
+
+.infoText {
+    color: #22253B;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.footer2,
+.footer {
+    background: #f9f8fd;
+}
+
+.footerIcon {
+    transition: all .5s linear;
+}
+
+.footerIcon:hover {
+    transform: rotateY(360deg) scale(1.4);
+}
+
+.footerType1 {
+    color: #8E8E8E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.phoneLink {
+    color: #38BFF2;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footerType2 {
+    color: #22253B;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+/* ============================================== */
+
+@media screen and (max-width: 767px) {
+    .headerText {
+        font-size: 35px;
+    }
+
+    .csCard {
+        padding: 20px;
+        min-height: 285px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .headerText {
+        font-size: 30px;
+    }
+
+    .ctText {
+        font-size: 40px;
+    }
+
+    .cardTitle {
+        font-size: 35px;
+    }
+
+    .prTitle {
+        font-size: 35px;
+    }
+
+    .footerCont {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .csCard {
+        min-height: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .headerText {
+        font-size: 27px;
+    }
+
+    .hdText {
+        font-size: 16px;
+    }
+
+    .ctText {
+        font-size: 35px;
+    }
+
+    .contentText {
+        font-size: 17px;
+    }
+
+    .cardTitle {
+        font-size: 28px;
+    }
+
+    .prTitle {
+        font-size: 28px;
+    }
+
+    .footerCont {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .headerText {
+        font-size: 25px;
+    }
+
+    .csButton2 {
+        font-size: 18px;
+        padding: 12.5px 20px;
+    }
+
+    .ctText {
+        font-size: 30px;
+    }
+}
